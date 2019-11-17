@@ -24,13 +24,75 @@ After the results were gathered from the Network tab, we summed <img src="http:/
 |slow 3G|49,84|49,63|50,15|50,01|
 |fast 3G|14,014|13,677|14,085|14,721|
 |online|2,421|0,566|3,646|3,292|
+</br>
+
+<details><summary>NY timings</summary>
+</br>
+<p align="center">
+<img src="timings/NY-speed-slow3G.png">
+<em>slow 3G</em>
+</p>
+<p align="center">
+<img src="timings/NY-speed-slow3G.png">
+<em>fast 3G</em>
+</p>
+<p align="center">
+<img src="timings/NY-speed-online.png">
+<em>online</em>
+</p>
+</details>
+<details><summary>FR timings</summary>
+</br>
+<p align="center">
+<img src="timings/EU-speed-slow3G.png">
+<em>slow 3G</em>
+</p>
+<p align="center">
+<img src="timings/EU-speed-slow3G.png">
+<em>fast 3G</em>
+</p>
+<p align="center">
+<img src="timings/EU-speed-online.png">
+<em>online</em>
+</p>
+</details>
+<details><summary>SIN timings</summary>
+</br>
+<p align="center">
+<img src="timings/SIN-speed-slow3G.png">
+<em>slow 3G</em>
+</p>
+<p align="center">
+<img src="timings/SIN-speed-slow3G.png">
+<em>fast 3G</em>
+</p>
+<p align="center">
+<img src="timings/SIN-speed-online.png">
+<em>online</em>
+</p>
+</details>
+<details><summary>BAN timings</summary>
+</br>
+<p align="center">
+<img src="timings/BAN-speed-slow3G.png">
+<em>slow 3G</em>
+</p>
+<p align="center">
+<img src="timings/BAN-speed-slow3G.png">
+<em>fast 3G</em>
+</p>
+<p align="center">
+<img src="timings/BAN-speed-online.png">
+<em>online</em>
+</p>
+</details>
 
 </br>
 
 > Reproduce :computer: 
 
 Here we present 2 options of reproducing our experiment:
-1. Create 4 Digital Ocean droplets <img src="https://img.stackshare.io/service/295/DO_Logo_icon_blue.png" height="22" align="center"> in separate world locations - ex: New York, Frankfurt, Singapore, Bangalore. Within these droplets install Docker and use it to spin up a web-server where you would be serving the same HTML page throughout droplets. If you want to use our example you can find the file in the [website folder]() folder.  
+1. Create 4 Digital Ocean droplets <img src="https://img.stackshare.io/service/295/DO_Logo_icon_blue.png" height="22" align="center"> in separate world locations - ex: New York, Frankfurt, Singapore, Bangalore. Within these droplets install Docker and use it to spin up a web-server where you would be serving the same HTML page throughout droplets. If you want to use our example you can find the file in the [website folder](website) folder.  
 
 2. Use our already deployed servers [New York](http://206.189.201.122), [Frankfurt](http://46.101.201.30), [Singapore](http://68.183.225.99), [Bangalore](http://159.89.160.155).  
 
