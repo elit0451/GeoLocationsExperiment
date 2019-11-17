@@ -102,7 +102,7 @@ After following any of the previous approaches, just continue with checking the 
 
 ---
 ## Conclusion :memo:
-After evaluating the experiment results, we can conclude that our hypothesis **held true** :medal_military: since some of our results display a difference of more than **3** seconds between the closest server to us (_601 km_) and the furthest one (_10,093 km_). It came as a surprise that there was an unintelligible difference between timings when it came to the slow and fast 3G part of the experiment. After giving it a thought, we have concluded that this was caused as a result of the server being able to rely data faster than the set internet speeds could consume it. However, when experimenting with the uncapped speed, the difference was very clear with the minimum timing difference being just short of 2 seconds :stopwatch:.
+After evaluating the experiment results, we can conclude that our hypothesis **held true** :medal_military: since some of our results display a difference of more than **3** seconds between the closest server to us (_601 km_) and the furthest one (_10,093 km_). It came as a surprise that there was an unintelligible difference between timings when it came to the slow and fast 3G part of the experiment. After giving it a thought, we have concluded that this was caused as a result of the server being able to relay data faster than the set internet speeds could consume it. However, when experimenting with the uncapped speed, the difference was very clear with the minimum timing difference being just short of 2 seconds :stopwatch:.
 
 </br>
 
